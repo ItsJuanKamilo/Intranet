@@ -1,0 +1,240 @@
+/* Base */
+body,
+body *:not(html):not(style):not(br):not(tr):not(code) {
+    box-sizing: border-box;
+    font-family: -apple-system, Roboto, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    position: relative;
+}
+
+body {
+    -webkit-text-size-adjust: none;
+    background-color: #f4f7fa;
+    color: #4a5568;
+    height: 100%;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    width: 100% !important;
+}
+
+p,
+ul,
+ol,
+blockquote {
+    line-height: 1.6;
+    text-align: center;
+}
+
+a {
+    color: #007bff;
+}
+
+a img {
+    border: none;
+}
+
+/* Typography */
+h1 {
+    color: #1a202c;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2d3748;
+    text-align: center;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #4a5568;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-top: 0;
+    text-align: center;
+}
+
+p.sub {
+    font-size: 12px;
+    color: #a0aec0;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Layout */
+.wrapper {
+    background-color: #f4f7fa;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.content {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Header */
+.header {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.header a {
+    color: #1a202c;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Logo */
+.logo {
+    height: 80px;
+    width: auto;
+}
+
+/* Body */
+.body {
+    background-color: #f4f7fa;
+    border-bottom: 1px solid #e2e8f0;
+    border-top: 1px solid #e2e8f0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.inner-body {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
+    padding: 0;
+    width: 600px;
+}
+
+.inner-body a {
+    word-break: break-word;
+}
+
+/* Subcopy */
+.subcopy {
+    border-top: 1px solid #e2e8f0;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.subcopy p {
+    font-size: 13px;
+    color: #a0aec0;
+}
+
+/* Footer */
+.footer {
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+    width: 600px;
+}
+
+.footer p {
+    color: #a0aec0;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer a {
+    color: #a0aec0;
+    text-decoration: underline;
+}
+
+/* Tables (manteniendo tu estructura original) */
+.table table {
+    margin: 30px auto;
+    width: 100%;
+}
+
+.table th {
+    color: #2d3748;
+    border-bottom: 2px solid #cbd5e0;
+    padding-bottom: 2px;
+    font-size: 13px;
+    text-align: left;
+}
+
+.table td {
+    color: #2d3748;
+    font-size: 13px;
+    line-height: 10px;
+    padding: 7px;
+    border-bottom: 1px solid #edf2f7;
+}
+
+.content-cell {
+    padding: 15px;
+}
+
+/* Buttons */
+.action {
+    margin: 30px auto;
+    text-align: center;
+    width: 100%;
+}
+
+.button {
+    border-radius: 6px;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.button-blue,
+.button-primary {
+    background-color: #007bff;
+    padding: 12px 30px;
+}
+
+.button-green,
+.button-success {
+    background-color: #38a169;
+    padding: 12px 30px;
+}
+
+.button-red,
+.button-error {
+    background-color: #e53e3e;
+    padding: 12px 30px;
+}
+
+/* Panels */
+.panel {
+    border-left: 4px solid #3182ce;
+    margin: 25px 0;
+}
+
+.panel-content {
+    background-color: #edf2f7;
+    color: #4a5568;
+    padding: 20px;
+}
+
+.panel-content p {
+    color: #4a5568;
+}
+
+.break-all {
+    word-break: break-all;
+}
